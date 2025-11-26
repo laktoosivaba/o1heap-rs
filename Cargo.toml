@@ -1,6 +1,6 @@
 [package]
 name = "o1heap"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 license = "MIT"
 description = "Rust bindings for o1heap - a constant-time deterministic memory allocator"
@@ -9,12 +9,11 @@ documentation = "https://docs.rs/o1heap"
 keywords = ["allocator", "embedded", "no_std", "deterministic", "real-time"]
 categories = ["memory-management", "no-std", "embedded"]
 
-[features]
-default = []
-# Enable GlobalAlloc implementation
-global_alloc = []
-
 [dependencies]
+
+[dev-dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
 
 [build-dependencies]
 cc = "1.2"

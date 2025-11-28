@@ -83,4 +83,4 @@ This crate is licensed under the MIT license. The underlying [o1heap](https://gi
 
 ## Credits
 - [o1heap](https://github.com/pavel-kirienko/o1heap) by Pavel Kirienko
-- [embedded-alloc](https://github.com/rust-embedded/embedded-alloc)
+- [embedded-alloc](https://github.com/rust-embedded/embedded-alloc) - crate API inspiration
